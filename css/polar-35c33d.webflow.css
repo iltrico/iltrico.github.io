@@ -398,6 +398,9 @@ img {
   .container {
     font-size: 16px;
   }
+  .body {
+    font-size: 18px;
+  }
   .nav-link {
     color: #fff;
   }
@@ -446,8 +449,8 @@ img {
 }
 
 @media (max-width: 479px) {
-  .headings.h1 {
-    font-size: 1.927em;
+  .body {
+    font-size: 16px;
   }
   .nav-link.w--current {
     color: #fffe2a;
@@ -474,19 +477,24 @@ img {
     flex: 0 auto;
   }
   .flex-child.side-column {
+    margin-bottom: 40px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
   .flex-card {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
   .tab-links {
     display: block;
+  }
+  .flex-card-content {
+    min-height: auto;
+    padding: 10px;
   }
 }
 
