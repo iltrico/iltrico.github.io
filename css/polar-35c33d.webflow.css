@@ -223,6 +223,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   min-height: 77vh;
+  padding-top: 140px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -344,6 +345,10 @@ img {
   -webkit-align-content: flex-start;
   -ms-flex-line-pack: start;
   align-content: flex-start;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -356,6 +361,10 @@ img {
   border-color: #cfcfcf;
   border-radius: 4px;
   background-color: #fff;
+}
+
+.padding-top {
+  margin-top: 2em;
 }
 
 @media (max-width: 991px) {
@@ -378,8 +387,8 @@ img {
     padding-left: 22px;
   }
   .flex-child {
-    margin-right: 12px;
-    margin-left: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .flex-child.central-column {
     -webkit-flex-basis: 77%;
@@ -420,6 +429,10 @@ img {
   .menu-button {
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .flex-parent {
     -webkit-flex-wrap: wrap;
@@ -470,6 +483,10 @@ img {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
+  .flex-parent.grid {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
   .flex-child {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
@@ -484,16 +501,17 @@ img {
     flex: 0 auto;
   }
   .flex-card {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
+    padding: 5px;
+    -webkit-box-flex: 190px;
+    -webkit-flex: 190px;
+    -ms-flex: 190px;
+    flex: 190px;
   }
   .tab-links {
     display: block;
   }
   .flex-card-content {
-    min-height: auto;
+    min-height: 260px;
     padding: 10px;
   }
 }
