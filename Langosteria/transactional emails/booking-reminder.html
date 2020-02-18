@@ -6,28 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
     <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
     <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no"> <!-- Tell iOS not to automatically link certain text strings. -->
-    <title>Tavolo prenotato</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <title>Prenotazione in attesa di conferma</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
 
     <!-- Web Font / @font-face : BEGIN -->
-    <!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
-
-    <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
-    <!--[if mso]>
-	<style>
-            * {
-font-family: 'Montserrat', sans-serif !important;
-}
-    </style>
-	<![endif]-->
-
-    <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
-    <!--[if !mso]><!-->
-	<!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	<!--<![endif]-->
-
-    <!-- Web Font / @font-face : END -->
-
+     <!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
+ 
+     <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+     <!--[if mso]>
+ 	<style>
+             * {
+ font-family: 'Montserrat', sans-serif !important;
+ }
+     </style>
+ 	<![endif]-->
+ 
+     <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+     <!--[if !mso]><!-->
+ 	<!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
+ 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+ 	<!--<![endif]-->
+ 
+     <!-- Web Font / @font-face : END -->
+	 
     <!-- CSS Reset : BEGIN -->
     <style>
 
@@ -240,7 +240,19 @@ img.g-img + div {
 						<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 							<tr>
 								<td style="padding: 20px 20px 0; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 25px; color: #808080;">
-									<h1 style="margin: 0 0 25px 0; font-family: 'Montserrat', sans-serif; font-size: 25px; line-height: 30px; color: #686868; font-weight: normal;">La sua prenotazione è confermata, l’aspettiamo venerdì 24 gennaio 2020 alle 20:00</h1>
+									<h1 style="margin: 0 0 25px 0; font-family: 'Montserrat', sans-serif; font-size: 25px; line-height: 30px; color: #686868; font-weight: normal;">La aspettiamo venerdì alle 20:00, 										per cortesia confermi ora la sua prenotazione</h1>
+								</td>
+							</tr>
+							
+							<tr>
+								<td style="padding: 0 20px 40px;">
+                                    <!-- Button : BEGIN -->
+                                    <table align="left" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+										<tr>
+											<td class="button-td button-td-primary" style="background: #fff;"><a class="button-a button-a-primary" href="https://google.com/" style="background: #E74010; border: 1px solid rgba(255, 255, 255, 0.2); font-family: 'Montserrat', sans-serif; font-size: 14px; line-height: 52px; text-decoration: none; text-transform: uppercase; padding: 0 24px; color: #fff; display: block; box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);">Conferma prenotazione</a></td>
+										</tr>
+									</table>
+                                    <!-- Button : END -->
 								</td>
 							</tr>
 							
@@ -256,9 +268,9 @@ img.g-img + div {
 										
 										<br>20144 Milano
 									</p>
-							        <a href="https://goo.gl/maps/opshMHn5bwGgU6Vf7" style="color: #E74010; display: block; margin: 0 0 10px 0;">
-							          Indicazioni stradali ›</a></td>
-							    <!-- Recap : END -->
+                                    <a href="https://goo.gl/maps/opshMHn5bwGgU6Vf7" style="color: #E74010; display: block; margin: 0 0 10px 0;">
+                                      Indicazioni stradali ›</a></td>
+                                <!-- Recap : END -->
 							</tr>
 							
 							<tr>
@@ -273,13 +285,13 @@ img.g-img + div {
 							
 							<tr>
 								<td style="padding: 20px 20px 0;">
-                                    <!-- Button : BEGIN -->
-                                    <table align="left" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+							        <!-- Button : BEGIN -->
+							        <table align="left" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
 										<tr>
 											<td class="button-td button-td-primary" style="background: #fff;"><a class="button-a button-a-primary" href="https://google.com/" style="background: #fff; border: 1px solid rgba(0, 0, 0, 0.2); font-family: 'Montserrat', sans-serif; font-size: 14px; line-height: 32px; text-decoration: none; text-transform: uppercase; padding: 0 15px; color: #808080; display: block; box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);">Cancella prenotazione</a></td>
 										</tr>
 									</table>
-                                    <!-- Button : END -->
+							        <!-- Button : END -->
 								</td>
 							</tr>
 						</table>
