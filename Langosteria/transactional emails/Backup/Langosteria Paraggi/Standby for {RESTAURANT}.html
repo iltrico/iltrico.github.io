@@ -1,0 +1,374 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title></title>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<meta content="initial-scale = 1.0,maximum-scale = 1.0" name="viewport" />
+		<style type="text/css">
+/* Mobile-specific Styles */
+@media only screen and (max-device-width: 480px) {
+TABLE[CLASS=W0], TD[CLASS=W0] { WIDTH: 300PX !IMPORTANT; }
+table[class=w10], td[class=w10], img[class=w10] { WIDTH:10PX !IMPORTANT; }
+table[class=w15], td[class=w15], img[class=w15] { WIDTH:5PX !IMPORTANT; }
+table[class=w30], td[class=w30], img[class=w30] { WIDTH:10PX !IMPORTANT; }
+table[class=w60], td[class=w60], img[class=w60] { WIDTH:10PX !IMPORTANT; }
+table[class=w125], td[class=w125], img[class=w125] { WIDTH:80PX !IMPORTANT; }
+table[class=w130], td[class=w130], img[class=w130] { WIDTH:55PX !IMPORTANT; }
+table[class=w140], td[class=w140], img[class=w140] { WIDTH:90PX !IMPORTANT; }
+table[class=w160], td[class=w160], img[class=w160] { WIDTH:180PX !IMPORTANT; }
+table[class=w170], td[class=w170], img[class=w170] { WIDTH:100PX !IMPORTANT; }
+table[class=w180], td[class=w180], img[class=w180] { WIDTH:80PX !IMPORTANT; }
+table[class=w195], td[class=w195], img[class=w195] { WIDTH:80PX !IMPORTANT; }
+table[class=w220], td[class=w220], img[class=w220] { WIDTH:80PX !IMPORTANT; }
+table[class=w240], td[class=w240], img[class=w240] { WIDTH:180PX !IMPORTANT; }
+table[class=w255], td[class=w255], img[class=w255] { WIDTH:185PX !IMPORTANT; }
+table[class=w275], td[class=w275], img[class=w275] { WIDTH:135PX !IMPORTANT; }
+table[class=w280], td[class=w280], img[class=w280] { WIDTH:135PX !IMPORTANT; }
+table[class=w300], td[class=w300], img[class=w300] { WIDTH:280PX !IMPORTANT; }
+table[class=w325], td[class=w325], img[class=w325] { WIDTH:95PX !IMPORTANT; }
+table[class=w360], td[class=w360], img[class=w360] { WIDTH:140PX !IMPORTANT; }
+table[class=w410], td[class=w410], img[class=w410] { WIDTH:180PX !IMPORTANT; }
+table[class=w470], td[class=w470], img[class=w470] { WIDTH:200PX !IMPORTANT; }
+table[class=w580], td[class=w580], img[class=w580] { WIDTH:280PX !IMPORTANT; }
+table[class=w640], td[class=w640], img[class=w640] { WIDTH:300PX !IMPORTANT; }
+table[class*=hide], td[class*=hide], img[class*=hide], p[class*=hide], span[class*=hide] { DISPLAY:NONE !IMPORTANT; }
+table[class=h0], td[class=h0] { HEIGHT: 0 !IMPORTANT; }
+p[class=footer-content-left] { TEXT-ALIGN: CENTER !IMPORTANT; }
+#headline p { FONT-SIZE: 30PX !IMPORTANT; }
+.article-content, #left-sidebar{ -WEBKIT-TEXT-SIZE-ADJUST: 90% !IMPORTANT; -MS-TEXT-SIZE-ADJUST: 90% !IMPORTANT; }
+.header-content, .footer-content-left {-WEBKIT-TEXT-SIZE-ADJUST: 80% !IMPORTANT; -MS-TEXT-SIZE-ADJUST: 80% !IMPORTANT;}
+img { HEIGHT: AUTO; LINE-HEIGHT: 100%;}
+ }
+/* Client-specific Styles */
+#outlook a { PADDING: 0; }	/* Force Outlook to provide a "view in browser" button. */
+body { WIDTH: 100% !IMPORTANT; }
+.ReadMsgBody { WIDTH: 100%; }
+.ExternalClass { WIDTH: 100%; DISPLAY:BLOCK !IMPORTANT; } /* Force Hotmail to display emails at full width */
+/* Reset Styles */
+/* Add 100px so mobile switch bar doesn't cover street address. */
+body { BACKGROUND-COLOR: #ECECEC; MARGIN: 0; PADDING: 0; }
+img { OUTLINE: NONE; TEXT-DECORATION: NONE; DISPLAY: BLOCK;}
+br, strong br, b br, em br, i br { LINE-HEIGHT:100%; }
+h1, h2, h3, h4, h5, h6 { LINE-HEIGHT: 100% !IMPORTANT; -WEBKIT-FONT-SMOOTHING: ANTIALIASED; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { COLOR: BLUE !IMPORTANT; }
+h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {	COLOR: RED !IMPORTANT; }
+/* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited { COLOR: PURPLE !IMPORTANT; }
+/* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+table td, table tr { BORDER-COLLAPSE: COLLAPSE; }
+.yshortcuts, .yshortcuts a, .yshortcuts a:link,.yshortcuts a:visited, .yshortcuts a:hover, .yshortcuts a span {
+COLOR: BLACK; TEXT-DECORATION: NONE !IMPORTANT; BORDER-BOTTOM: NONE !IMPORTANT; BACKGROUND: NONE !IMPORTANT;
+}	/* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
+#background-table { BACKGROUND-COLOR: #ECECEC; }
+/* Webkit Elements */
+#top-bar { BORDER-RADIUS:6PX 6PX 0PX 0PX; -MOZ-BORDER-RADIUS: 6PX 6PX 0PX 0PX; -WEBKIT-BORDER-RADIUS:6PX 6PX 0PX 0PX; -WEBKIT-FONT-SMOOTHING: ANTIALIASED; BACKGROUND-COLOR: #FFF; COLOR: #020202; }
+#top-bar a { FONT-WEIGHT: BOLD; COLOR: #ffffff; TEXT-DECORATION: NONE;}
+#footer { BORDER-RADIUS:0PX 0PX 6PX 6PX; -MOZ-BORDER-RADIUS: 0PX 0PX 6PX 6PX; -WEBKIT-BORDER-RADIUS:0PX 0PX 6PX 6PX; -WEBKIT-FONT-SMOOTHING: ANTIALIASED; }
+/* Fonts and Content */
+body, td { FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, SANS-SERIF; }
+.header-content, .footer-content-left, .footer-content-right { -WEBKIT-TEXT-SIZE-ADJUST: NONE; -MS-TEXT-SIZE-ADJUST: NONE; }
+/* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
+.header-content { FONT-SIZE: 12PX; COLOR: #ffffff; }
+.header-content a { FONT-WEIGHT: BOLD; COLOR: #ffffff; TEXT-DECORATION: NONE; }
+#headline p {
+	COLOR: #575757;
+	FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, GENEVA, SANS-SERIF;
+	FONT-SIZE: 36PX;
+	TEXT-ALIGN: CENTER;
+	MARGIN-TOP:0PX;
+	MARGIN-BOTTOM:10PX;
+}
+#headline p a { COLOR: #575757; TEXT-DECORATION: NONE; }
+.article-title {FONT-SIZE: 13PX;FONT-FAMILY:ARIAL, HELVETICA, SANS-SERIF;LINE-HEIGHT:24PX;COLOR: #00b6f1;FONT-WEIGHT:NORMAL;MARGIN-TOP:0PX;MARGIN-BOTTOM:18PX;FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, SANS-SERIF;
+}
+.article-title a { COLOR: #00b6f1; TEXT-DECORATION: NONE; }
+.article-title.with-meta {MARGIN-BOTTOM: 0;}
+.article-meta { FONT-SIZE: 13PX; LINE-HEIGHT: 20PX; COLOR: #575757; FONT-WEIGHT: BOLD; MARGIN-TOP: 0;}
+.article-content { FONT-SIZE: 13PX; LINE-HEIGHT: 18PX; COLOR: #575757; MARGIN-TOP: 0PX; MARGIN-BOTTOM: 18PX; FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, SANS-SERIF; }
+.article-content a { COLOR: #00b6f1; FONT-WEIGHT:BOLD; TEXT-DECORATION:NONE; }
+.article-content img { MAX-WIDTH: 100% }
+.article-content ol, .article-content ul { MARGIN-TOP:0PX; MARGIN-BOTTOM:18PX; MARGIN-LEFT:19PX; PADDING:0; }
+.article-content li { FONT-SIZE: 13PX; LINE-HEIGHT: 18PX; COLOR: #575757; }
+.article-content li a { COLOR: #00b6f1; TEXT-DECORATION:UNDERLINE; }
+.article-content p {MARGIN-BOTTOM: 15PX;}
+.footer-content-left { FONT-SIZE: 12PX; LINE-HEIGHT: 15PX; COLOR: #ffffff; MARGIN-TOP: 0PX; MARGIN-BOTTOM: 15PX; }
+.footer-content-left a { COLOR: #ffffff; FONT-WEIGHT: BOLD; TEXT-DECORATION: NONE; }
+.footer-content-right { FONT-SIZE: 11PX; LINE-HEIGHT: 16PX; COLOR: #ffffff; MARGIN-TOP: 0PX; MARGIN-BOTTOM: 15PX; }
+.footer-content-right a { COLOR: #ffffff; FONT-WEIGHT: BOLD; TEXT-DECORATION: NONE; }
+#footer { BACKGROUND-COLOR: #00b6f1; COLOR: #ffffff; }
+#footer a { COLOR: #ffffff !IMPORTANT; TEXT-DECORATION: NONE; FONT-WEIGHT: BOLD; }
+#permission-reminder { WHITE-SPACE: NORMAL; }
+#street-address { COLOR: #ffffff; WHITE-SPACE: NORMAL; }		</style>
+		<!--[if gte mso 9]>
+<style _tmplitem="33" >
+.article-content ol, .article-content ul {
+   MARGIN: 0 0 0 24PX;
+   PADDING: 0;
+   LIST-STYLE-POSITION: INSIDE;
+}
+</style>
+<![endif]-->
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" id="background-table" width="100%">
+			<tbody>
+				<tr>
+					<td align="center" bgcolor="#d3d3d3">
+						<table border="0" cellpadding="0" cellspacing="0" class="w640" style="margin:0 10px;" width="640">
+							<tbody>
+								<tr>
+									<td class="w640" height="20" width="640">
+										&nbsp;</td>
+								</tr>
+								<tr>
+									<td class="w640" width="640">
+										<table bgcolor="#00b6f1" border="0" cellpadding="0" cellspacing="0" class="w640" id="top-bar" style="BORDER-RADIUS:6PX 6PX 0PX 0PX; -MOZ-BORDER-RADIUS: 6PX 6PX 0PX 0PX; -WEBKIT-BORDER-RADIUS:6PX 6PX 0PX 0PX; -WEBKIT-FONT-SMOOTHING: ANTIALIASED; BACKGROUND-COLOR: #00b6f1; COLOR: #ffffff;" width="640">
+											<tbody>
+												<tr>
+													<td class="w15" width="15">
+														&nbsp;</td>
+													<td align="left" class="w325" valign="middle" width="350">
+														<table border="0" cellpadding="0" cellspacing="0" class="w325" width="350">
+															<tbody>
+																<tr>
+																	<td class="w325" height="8" style="color:white;" width="350">
+																		<span class="header-content" style="FONT-SIZE: 12PX; COLOR: #ffffff;"><strong>{RESTAURANT}</strong>Standby List Confirmation</span></td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+													<td class="w30" width="30">
+														&nbsp;</td>
+													<td align="right" class="w255" valign="middle" width="255">
+														<table border="0" cellpadding="0" cellspacing="0" class="w255" width="255">
+															<tbody>
+																<tr>
+																	<td class="w255" height="8" width="255">
+																		&nbsp;</td>
+																</tr>
+															</tbody>
+														</table>
+														<table border="0" cellpadding="0" cellspacing="0">
+															<tbody>
+																<tr>
+																	<td valign="middle">
+																		&nbsp;</td>
+																	<td width="3">
+																		&nbsp;</td>
+																	<td valign="middle">
+																		&nbsp;</td>
+																	<td class="w10" width="10">
+																		<a href="{RESTAURANT_TWITTER}"><img alt="" height="20" src="https://resdiary.blob.core.windows.net/uploads/uk/3133/images/88/img16006.png" width="20" /></a></td>
+																	<td valign="middle">
+																		&nbsp;</td>
+																	<td width="3">
+																		&nbsp;</td>
+																	<td valign="middle">
+																		&nbsp;</td>
+																	<td class="w10" width="10">
+																		<a href="{RESTAURANT_FACEBOOK}"><img alt="" height="20" src="https://resdiary.blob.core.windows.net/uploads/uk/3133/images/88/img16007.png" width="20" /></a></td>
+																	<td valign="middle">
+																		&nbsp;</td>
+																	<td width="3">
+																		&nbsp;</td>
+																	<td valign="middle">
+																		&nbsp;</td>
+																	<td class="w10" width="10">
+																		<a href="{RESTAURANT_INSTAGRAM}"><img alt="" height="20" src="https://resdiary.blob.core.windows.net/uploads/uk/3133/images/4692/img40004.png" width="20" /></a></td>
+																	<td valign="middle">
+																		&nbsp;</td>
+																	<td width="3">
+																		&nbsp;</td>
+																	<td valign="middle">
+																		&nbsp;</td>
+																</tr>
+															</tbody>
+														</table>
+														<table border="0" cellpadding="0" cellspacing="0" class="w255" width="255">
+															<tbody>
+																<tr>
+																	<td class="w255" height="8" width="255">
+																		&nbsp;</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+													<td class="w15" width="15">
+														&nbsp;</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td align="center" bgcolor="#00b6f1" class="w640" id="header" width="640">
+										<table border="0" cellpadding="0" cellspacing="0" class="w640" width="640">
+											<tbody>
+												<tr>
+													<td class="w30" width="30">
+														&nbsp;</td>
+													<td class="w580" height="10" width="580">
+														&nbsp;</td>
+													<td class="w30" width="30">
+														&nbsp;</td>
+												</tr>
+												<tr>
+													<td class="w30" width="30">
+														&nbsp;</td>
+													<td class="w580" width="580">
+														<div align="center" id="headline">
+															<center>
+																<strong><a href="https://langosteria.com/langosteria-paraggi/"><img class="w300" editable="true" label="Image" src="https://resdiary.blob.core.windows.net/uploads/uk/14504/images/22164/img95080.PNG" style="margin:20px 0;" width="300" /></a> </strong></center>
+														</div>
+													</td>
+													<td class="w30" width="30">
+														&nbsp;</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td bgcolor="#575757" class="w640" height="10" width="640">
+										&nbsp;</td>
+								</tr>
+								<tr>
+									<td bgcolor="#ffffff" class="w640" height="10" width="640">
+										&nbsp;</td>
+								</tr>
+								<tr id="simple-content-row">
+									<td bgcolor="#ffffff" class="w640" width="640">
+										<table border="0" cellpadding="0" cellspacing="0" class="w640" width="640">
+											<tbody>
+												<tr>
+													<td class="w30" width="30">
+														&nbsp;</td>
+													<td class="w580" width="580">
+														<table border="0" cellpadding="0" cellspacing="0" class="w580" width="580">
+															<tbody>
+																<tr>
+																	<td class="w580" width="580">
+																		<p align="left" class="article-title" style="FONT-SIZE: 13PX;FONT-FAMILY:ARIAL, HELVETICA, SANS-SERIF;LINE-HEIGHT:24PX;COLOR: #00b6f1;FONT-WEIGHT:NORMAL;MARGIN-TOP:0PX;MARGIN-BOTTOM:18PX;FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, SANS-SERIF;">
+																			Dear {NAME}</p>
+																		<div align="left" class="article-content" style="FONT-SIZE: 13PX; LINE-HEIGHT: 18PX; COLOR: #575757; MARGIN-TOP: 0PX; MARGIN-BOTTOM: 18PX; FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, SANS-SERIF;">
+																			Thank you for your request to be included on our standby list for {DATE} with a preferred time of {TIME} for {COVERS}. We shall phone or text you on your mobile number as soon as possible should a table become available. Please text or call us on {RESTAURANT_PHONE} to confirm or not that you still wish to dine with us.</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+														<table border="0" cellpadding="0" cellspacing="0" class="w580" width="580">
+															<tbody>
+																<tr>
+																	<td class="w580" width="580">
+																		<p align="left" class="article-title" for="" p="" style="FONT-SIZE: 13PX;FONT-FAMILY:ARIAL, HELVETICA, SANS-SERIF;LINE-HEIGHT:24PX;COLOR: #00b6f1;FONT-WEIGHT:NORMAL;MARGIN-TOP:0PX;MARGIN-BOTTOM:18PX;FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, SANS-SERIF;" thank="" you="" your="">
+																			&nbsp;</p>
+																		<div align="left" class="article-content" style="FONT-SIZE: 13PX; LINE-HEIGHT: 18PX; COLOR: #575757; MARGIN-TOP: 0PX; MARGIN-BOTTOM: 18PX; FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, SANS-SERIF;">
+																			Kind regards<br />
+																			<strong>{RESTAURANT}</strong></div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+														<table border="0" cellpadding="0" cellspacing="0" class="w580" width="580">
+															<tbody>
+																<tr>
+																	<td class="w580" width="580">
+																		<p align="left" class="article-title" style="FONT-SIZE: 13PX;FONT-FAMILY:ARIAL, HELVETICA, SANS-SERIF;LINE-HEIGHT:24PX;COLOR: #00b6f1;FONT-WEIGHT:NORMAL;MARGIN-TOP:0PX;MARGIN-BOTTOM:18PX;FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, SANS-SERIF;">
+																			Directions</p>
+																		<div align="left" class="article-content" style="FONT-SIZE: 13PX; LINE-HEIGHT: 18PX; COLOR: #575757; MARGIN-TOP: 0PX; MARGIN-BOTTOM: 18PX; FONT-FAMILY: 'HELVETICA NEUE', ARIAL, HELVETICA, SANS-SERIF;">
+																			To see directions to the restaurant, please click the following link.<br />
+																			<strong>&bull; <a href="www.google.com/maps/dir//{RESTAURANT_NAME}+{RESTAURANT_ADDRESS1}+{RESTAURANT_CITY}+{RESTAURANT_POSTCODE}" style="color:#00b6f1;"><span style="COLOR: #00b6f1 !IMPORTANT; TEXT-DECORATION: NONE;"><font color="#00b6f1">Directions from Google Maps</font></span></a></strong></div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+													<td class="w30" width="30">
+														&nbsp;</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td bgcolor="#575757" class="w640" height="15" width="640">
+										&nbsp;</td>
+								</tr>
+								<tr>
+								</tr>
+								<tr>
+									<td bgcolor="#00b6f1" class="w640" height="15" width="640">
+										&nbsp;</td>
+								</tr>
+								<tr>
+									<td class="w640" width="640">
+										<table bgcolor="#00b6f1" border="0" cellpadding="0" cellspacing="0" class="w640" id="footer" style="BORDER-RADIUS:0PX 0PX 0PX 0PX; -MOZ-BORDER-RADIUS: 0PX 0PX 0PX 0PX;-WEBKIT-BORDER-RADIUS:0PX 0PX 0PX 0PX; -WEBKIT-FONT-SMOOTHING: ANTIALIASED;BACKGROUND-COLOR: #00b6f1; COLOR: #000000;" width="640">
+											<tbody>
+												<tr>
+													<td class="w30" width="30">
+														&nbsp;</td>
+													<td class="w580 h0" height="10" width="160">
+														&nbsp;</td>
+													<td class="w0" width="60">
+														&nbsp;</td>
+													<td class="w0" width="260">
+														&nbsp;</td>
+													<td class="w30" width="30">
+														&nbsp;</td>
+												</tr>
+												<tr>
+													<td class="w30" width="30">
+														&nbsp;</td>
+													<td class="w580" valign="top" width="100">
+														&nbsp;</td>
+													<td class="w0" width="60">
+														&nbsp;</td>
+													<td class="w0" valign="top" width="320">
+														<p align="right" class="footer-content-right" data_temp_dwid="1" id="street-address" style="FONT-SIZE: 11PX; LINE-HEIGHT: 16PX; COLOR: #ffffff; MARGIN-TOP: 0PX; MARGIN-BOTTOM: 15PX;">
+															<br data_temp_dwid="2" />
+															Tel: {RESTAURANT_PHONE}<br data_temp_dwid="3" />
+															<a data_temp_dwid="4" href="mailto:{PROVIDER_EMAIL}" style="COLOR: #ffffff !IMPORTANT; TEXT-DECORATION: NONE; FONT-WEIGHT: BOLD;"><span data_temp_dwid="5" style="COLOR: #ffffff !IMPORTANT; TEXT-DECORATION: NONE;"><font color="#ffffff" data_temp_dwid="6">{PROVIDER_EMAIL}</font></span></a><br data_temp_dwid="7" />
+															{RESTAURANT_ADDRESS}</p>
+													</td>
+													<td class="w30" width="30">
+														&nbsp;</td>
+												</tr>
+												<tr>
+													<td class="w30" width="30">
+														&nbsp;</td>
+													<td class="w580 h0" height="15" width="160">
+														&nbsp;</td>
+													<td class="w0" width="60">
+														&nbsp;</td>
+													<td class="w0" width="260">
+														&nbsp;</td>
+													<td class="w30" width="30">
+														&nbsp;</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="w640" width="640">
+										<a href="https://itunes.apple.com/app/apple-store/id1141667303?pt=567411&ct=restauratuers&mt=8"><img alt="ResDiary Now" class="w640" editable="true" label="Image" src="https://resdiary.blob.core.windows.net/uploads/uk/3133/images/4692/img39705.png" style="width:640px;" width="640" /></a>
+										<table bgcolor="#00b6f1" border="0" cellpadding="0" cellspacing="0" class="w640" id="footer" style="BORDER-RADIUS:0PX 0PX 6PX 6PX; -MOZ-BORDER-RADIUS: 0PX 0PX 6PX 6PX;-WEBKIT-BORDER-RADIUS:0PX 0PX 6PX 6PX; -WEBKIT-FONT-SMOOTHING: ANTIALIASED;BACKGROUND-COLOR: #00b6f1; COLOR: #000000;" width="640">
+											<tbody>
+												<tr>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="w640" height="60" width="640">
+										&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

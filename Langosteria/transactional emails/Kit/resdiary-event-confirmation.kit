@@ -1,0 +1,34 @@
+<!-- @import _variables -->
+
+<!-- $title Event Confirmation -->
+<!-- $pre-head Risponderemo al più presto alla sua richiesta di prenotazione da {RESTAURANT} per {LOCALISED_DATE} alle {TIME} -->
+<!-- $h1 Grazie per la sua richiesta di prenotazione, le daremo conferma della disponibilità nelle prossime 24 ore -->
+<!-- $address-h Riferimento richiesta {FUNCTION_ENQUIRY_BOOKING_REFERENCE} -->
+
+<!-- @import _head -->
+
+<!-- Email Body : BEGIN -->
+<table align="left" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+
+  <!-- @import _header -->
+
+  <!-- 1 Column Text + Button : BEGIN -->
+  <tr>
+    <td style="background-color: #ffffff;">
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+        <!-- @import _h1 -->
+        <tr>
+          <td style="padding: 12px 20px 0; <!-- $family --> <!-- $size-m --> <!-- $color-base -->">
+            <p style="padding: 0;margin: 0; ">La contatteremo all’indirizzo {EMAIL}{CONDITION TYPE="CUSTOMER_MOBILE"} o per telefono al {CUSTOMER_MOBILE}{/CONDITION} per darle conferma della prenotazione e concordare eventuali dettagli.</p>
+          </td>
+        </tr>
+
+        <!-- @import _recap-event -->
+      </table>
+    </td>
+  </tr>
+  <!-- 1 Column Text + Button : END -->
+</table>
+<!-- Email Body : END -->
+
+<!-- @import footer.kit -->
